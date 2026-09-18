@@ -1,4 +1,4 @@
-/* Grooming With Ams — interactions */
+/* Grooming With Ams - interactions */
 (() => {
   "use strict";
 
@@ -201,7 +201,7 @@
     const contact = (d.get("contact") || "").toString().trim();
     const message = (d.get("message") || "").toString().trim();
 
-    const subject = `Grooming enquiry — ${name}${dog ? ` and ${dog}` : ""}`;
+    const subject = `Grooming enquiry from ${name}${dog ? ` & ${dog}` : ""}`;
     const body = [
       `Hi Amy,`,
       ``,
@@ -211,7 +211,7 @@
       dog ? `Dog: ${dog}` : null,
       `Best contact: ${contact}`,
       ``,
-      `— sent via groomingwithams.co.uk`,
+      `Sent via groomingwithams.co.uk`,
     ]
       .filter(Boolean)
       .join("\n");
