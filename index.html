@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grooming With Ams — 1-to-1 Dog Grooming in Worthing</title>
+  <meta name="description" content="Calm, one-to-one dog grooming in Worthing, West Sussex. No cages, no chaos — just patient, expert care from Amy. Full grooms, puppy intros, bath & tidy and more." />
+  <meta property="og:title" content="Grooming With Ams — 1-to-1 Dog Grooming in Worthing" />
+  <meta property="og:description" content="No cages, no chaos. Calm one-to-one grooms, puppy intros, bath & tidy and more — from Amy on Tarring Road, Worthing." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/two-doggies_b.jpg" />
+
+  <link rel="icon" type="image/png" href="assets/GWA-Logo-clr.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Caveat:wght@500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- svg defs -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="star" viewBox="0 0 24 24"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17l-6.1 3.6 1.4-6.8L2.2 9.1l6.9-.8z"/></symbol>
+      <symbol id="paw" viewBox="0 0 24 24"><path d="M12 13.2c-2.6 0-5.4 2.1-5.4 4.4 0 1.4 1 2.4 2.5 2.4 1 0 1.9-.5 2.9-.5s1.9.5 2.9.5c1.5 0 2.5-1 2.5-2.4 0-2.3-2.8-4.4-5.4-4.4zM6.2 8.4c-1.1-.3-2.4.8-2.8 2.3-.3 1.5.3 2.9 1.4 3.2 1.1.3 2.4-.8 2.8-2.3.3-1.5-.3-2.9-1.4-3.2zm11.6 0c-1.1.3-1.7 1.7-1.4 3.2.4 1.5 1.7 2.6 2.8 2.3 1.1-.3 1.7-1.7 1.4-3.2-.4-1.5-1.7-2.6-2.8-2.3zM8.9 3.6c-1.2.2-2 1.7-1.8 3.3.2 1.5 1.3 2.7 2.5 2.5 1.2-.2 2-1.7 1.8-3.3-.2-1.6-1.3-2.7-2.5-2.5zm6.2 0c-1.2-.2-2.3.9-2.5 2.5-.2 1.6.6 3.1 1.8 3.3 1.2.2 2.3-1 2.5-2.5.2-1.6-.6-3.1-1.8-3.3z"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <img src="assets/GWA-Logo-clr.png" alt="" class="preloader__logo" />
+  </div>
+
+
+  <!-- ======= NAV ======= -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__logo">
+        <img src="assets/GWA-Logo-clr.png" alt="Grooming With Ams" />
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#visit">Visit</a>
+        <a href="https://bookings.gettimely.com/groomingwithams/bb/book?location=339847&staff=591161" class="nav__cta" target="_blank" rel="noopener">Book Now</a>
+      </nav>
+      <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ======= HERO ======= -->
+    <section class="hero">
+      <div class="hero__blob hero__blob--sage" aria-hidden="true"></div>
+      <div class="hero__blob hero__blob--blush" aria-hidden="true"></div>
+
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <p class="hero__eyebrow reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 13.2c-2.6 0-5.4 2.1-5.4 4.4 0 1.4 1 2.4 2.5 2.4 1 0 1.9-.5 2.9-.5s1.9.5 2.9.5c1.5 0 2.5-1 2.5-2.4 0-2.3-2.8-4.4-5.4-4.4zM6.2 8.4c-1.1-.3-2.4.8-2.8 2.3-.3 1.5.3 2.9 1.4 3.2 1.1.3 2.4-.8 2.8-2.3.3-1.5-.3-2.9-1.4-3.2zm11.6 0c-1.1.3-1.7 1.7-1.4 3.2.4 1.5 1.7 2.6 2.8 2.3 1.1-.3 1.7-1.7 1.4-3.2-.4-1.5-1.7-2.6-2.8-2.3zM8.9 3.6c-1.2.2-2 1.7-1.8 3.3.2 1.5 1.3 2.7 2.5 2.5 1.2-.2 2-1.7 1.8-3.3-.2-1.6-1.3-2.7-2.5-2.5zm6.2 0c-1.2-.2-2.3.9-2.5 2.5-.2 1.6.6 3.1 1.8 3.3 1.2.2 2.3-1 2.5-2.5.2-1.6-.6-3.1-1.8-3.3z"/></svg>
+            dog grooming in Worthing, West Sussex
+          </p>
+          <h1 class="hero__title">
+            <span class="line"><span>A calmer kind</span></span>
+            <span class="line"><span>of <em>dog</em></span></span>
+            <span class="line"><span><span class="squiggle"><em>grooming.</em><svg class="squiggle__svg" viewBox="0 0 260 26" preserveAspectRatio="none" aria-hidden="true"><path d="M6 16 C 45 6, 85 24, 125 14 S 200 6, 252 14"/></svg></span></span></span>
+          </h1>
+          <p class="hero__sub reveal">
+            One-to-one appointments in a quiet salon on Tarring Road.
+            No cages, no chaos — just Amy, her scissors, and your dog's
+            complete undivided attention.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="https://bookings.gettimely.com/groomingwithams/bb/book?location=339847&staff=591161" class="btn btn--primary magnetic" target="_blank" rel="noopener">
+              <span>Book an appointment</span>
+              <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#services" class="btn btn--ghost magnetic"><span>See services</span></a>
+          </div>
+          <div class="hero__meta reveal">
+            <div class="stars" aria-label="Five star rated">
+              <svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17l-6.1 3.6 1.4-6.8L2.2 9.1l6.9-.8z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17l-6.1 3.6 1.4-6.8L2.2 9.1l6.9-.8z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17l-6.1 3.6 1.4-6.8L2.2 9.1l6.9-.8z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17l-6.1 3.6 1.4-6.8L2.2 9.1l6.9-.8z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17l-6.1 3.6 1.4-6.8L2.2 9.1l6.9-.8z"/></svg>
+            </div>
+            <span>Fully qualified · Fully insured · First-aid trained</span>
+          </div>
+        </div>
+
+        <div class="hero__collage" aria-hidden="true">
+          <figure class="hero__img hero__img--main" data-parallax="0.06">
+            <img src="assets/two-doggies_b.jpg" alt="Two freshly groomed dogs at Grooming With Ams" />
+          </figure>
+          <figure class="hero__img hero__img--small" data-parallax="-0.10">
+            <img src="assets/Dog5b_2.jpg" alt="Dachshund on the grooming table" />
+          </figure>
+          <div class="hero__badge" data-parallax="0.14">
+            <svg viewBox="0 0 100 100" class="badge-spin">
+              <defs><path id="circlePath" d="M50,50 m-37,0 a37,37 0 1,1 74,0 a37,37 0 1,1 -74,0"/></defs>
+              <text><textPath href="#circlePath">1-TO-1 GROOMING • NO CAGES • NO CHAOS • </textPath></text>
+            </svg>
+            <svg class="badge-paw" viewBox="0 0 24 24"><path d="M12 13.2c-2.6 0-5.4 2.1-5.4 4.4 0 1.4 1 2.4 2.5 2.4 1 0 1.9-.5 2.9-.5s1.9.5 2.9.5c1.5 0 2.5-1 2.5-2.4 0-2.3-2.8-4.4-5.4-4.4zM6.2 8.4c-1.1-.3-2.4.8-2.8 2.3-.3 1.5.3 2.9 1.4 3.2 1.1.3 2.4-.8 2.8-2.3.3-1.5-.3-2.9-1.4-3.2zm11.6 0c-1.1.3-1.7 1.7-1.4 3.2.4 1.5 1.7 2.6 2.8 2.3 1.1-.3 1.7-1.7 1.4-3.2-.4-1.5-1.7-2.6-2.8-2.3zM8.9 3.6c-1.2.2-2 1.7-1.8 3.3.2 1.5 1.3 2.7 2.5 2.5 1.2-.2 2-1.7 1.8-3.3-.2-1.6-1.3-2.7-2.5-2.5zm6.2 0c-1.2-.2-2.3.9-2.5 2.5-.2 1.6.6 3.1 1.8 3.3 1.2.2 2.3-1 2.5-2.5.2-1.6-.6-3.1-1.8-3.3z"/></svg>
+          </div>
+          <span class="hero__note">fresh from the table ↑</span>
+        </div>
+      </div>
+
+      <a class="hero__scrollcue" href="#about" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ======= MARQUEE ======= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Full grooms</span><i>✳</i><span>Puppy intros</span><i>✳</i><span>Bath &amp; tidy</span><i>✳</i><span>De-shedding</span><i>✳</i><span>Nail clipping</span><i>✳</i><span>Doodles welcome</span><i>✳</i>
+        <span>Full grooms</span><i>✳</i><span>Puppy intros</span><i>✳</i><span>Bath &amp; tidy</span><i>✳</i><span>De-shedding</span><i>✳</i><span>Nail clipping</span><i>✳</i><span>Doodles welcome</span><i>✳</i>
+      </div>
+    </div>
+
+    <!-- ======= ABOUT ======= -->
+    <section class="about" id="about">
+      <div class="section-head">
+        <span class="section-tag">About</span>
+        <h2 class="section-title">Every tail has a story.<br/><em>Here's ours.</em></h2>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__media">
+          <figure class="about__photo about__photo--a" data-parallax="0.05">
+            <img loading="lazy" src="assets/shop-front_c-1.jpg" alt="The Grooming With Ams salon on Tarring Road, Worthing" />
+          </figure>
+          <figure class="about__photo about__photo--b" data-parallax="-0.08">
+            <img loading="lazy" src="assets/opening-day_c.jpg" alt="Opening day at Grooming With Ams" />
+          </figure>
+          <span class="about__scribble">the salon on Tarring Rd →</span>
+        </div>
+
+        <div class="about__copy">
+          <p class="lede reveal">
+            Hi, I'm Amy. Grooming With Ams is a one-to-one grooming studio in
+            Worthing — a calm little salon where your dog gets my full
+            attention from the moment they walk in.
+          </p>
+          <p class="reveal">
+            With over four years of experience, I noticed too many salons
+            focus on speed over care. So I built something different: no
+            cages, no conveyor belt of dogs, no chaos. Every groom is tailored
+            to your dog's breed, coat and temperament — using premium,
+            hypoallergenic, eco-friendly products.
+          </p>
+          <p class="reveal">
+            Whether it's a full groom or a nervous pup's very first visit,
+            they're treated like one of my own. Because here, they're not
+            just pets — they're part of the family.
+          </p>
+
+          <ul class="commitments">
+            <li class="reveal">
+              <strong>Kindness first</strong>
+              <span>Patience, care and compassion — always.</span>
+            </li>
+            <li class="reveal">
+              <strong>Clean &amp; safe</strong>
+              <span>Tools sanitised after every groom, spotless salon.</span>
+            </li>
+            <li class="reveal">
+              <strong>Qualified &amp; insured</strong>
+              <span>Certified, first-aid trained and fully covered.</span>
+            </li>
+            <li class="reveal">
+              <strong>Truly tailored</strong>
+              <span>Every session shaped to coat, breed and temperament.</span>
+            </li>
+          </ul>
+
+          <div class="stats">
+            <div class="stat reveal"><b data-count="4" data-suffix="+">0</b><span>years grooming experience</span></div>
+            <div class="stat reveal"><b data-count="1" data-prefix="" data-suffix=":1">0</b><span>every appointment, always</span></div>
+            <div class="stat reveal"><b data-count="100" data-suffix="%">0</b><span>cage-free, calm &amp; quiet</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<div class="edge" style="--fill:var(--cream);--bg:var(--sage-pale)"" aria-hidden="true"><svg viewBox="0 0 1440 48" preserveAspectRatio="none"><path d="M0 48 L0 30 C 120 8, 220 42, 360 26 C 500 10, 620 40, 760 24 C 900 8, 1020 40, 1160 26 C 1300 12, 1380 34, 1440 24 L1440 48 Z"/></svg></div>
+
+        <!-- ======= HOW IT WORKS ======= -->
+    <section class="how">
+      <div class="how__inner">
+        <div class="how__step reveal">
+          <b>01</b>
+          <h3>Book a slot</h3>
+          <p>Book online in seconds, or call, text or message Amy — whatever's easiest.</p>
+        </div>
+        <div class="how__step reveal">
+          <b>02</b>
+          <h3>Grooming day</h3>
+          <p>Drop your dog off and relax. They'll be pampered one-to-one, start to finish.</p>
+        </div>
+        <div class="how__step reveal">
+          <b>03</b>
+          <h3>Pick up &amp; smile</h3>
+          <p>Take home a happy, clean, gorgeous-smelling best friend.</p>
+        </div>
+      </div>
+      <div class="paw-trail" aria-hidden="true">
+        <svg><use href="#paw"/></svg><svg><use href="#paw"/></svg><svg><use href="#paw"/></svg><svg><use href="#paw"/></svg>
+      </div>
+    </section>
+
+<div class="edge" style="--fill:var(--sage-pale);--bg:var(--cream)"" aria-hidden="true"><svg viewBox="0 0 1440 48" preserveAspectRatio="none"><path d="M0 48 L0 24 C 140 42, 260 10, 400 30 C 540 44, 680 12, 820 28 C 960 42, 1100 12, 1240 28 C 1340 38, 1400 20, 1440 30 L1440 48 Z"/></svg></div>
+
+        <!-- ======= SERVICES / PRICE MENU ======= -->
+    <section class="services" id="services">
+      <div class="section-head">
+        <span class="section-tag">Services &amp; prices</span>
+        <h2 class="section-title">The <em>menu.</em></h2>
+        <p class="section-sub">Every package is tailored to your dog's size, coat and personality. Prices are a starting point — final quote depends on coat condition.</p>
+      </div>
+
+      <div class="services__filters reveal" role="tablist" aria-label="Service categories">
+        <button class="chip is-active" data-filter="all">Everything</button>
+        <button class="chip" data-filter="groom">Full grooms</button>
+        <button class="chip" data-filter="puppy">Puppy &amp; tidy</button>
+        <button class="chip" data-filter="extra">Extras</button>
+      </div>
+
+      <ul class="menu">
+        <li class="menu__item reveal" data-cat="groom" data-img="assets/chihuahua1.png">
+          <div class="menu__info">
+            <h3>Small · short coat</h3>
+            <p>Chihuahua, Dachshund, Jack Russell, French Bulldog</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£45</div>
+        </li>
+        <li class="menu__item reveal" data-cat="groom" data-img="assets/cocka1.png">
+          <div class="menu__info">
+            <h3>Small · long coat &amp; doodle</h3>
+            <p>Pomeranian, Bichon Frise, Maltese, Lhasa Apso, Jackapoo, Pug</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£45</div>
+        </li>
+        <li class="menu__item reveal" data-cat="groom" data-img="assets/labra1.png">
+          <div class="menu__info">
+            <h3>Medium · short coat</h3>
+            <p>Spaniels, Beagle, Whippet, Basset Hound, Labrador</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£55</div>
+        </li>
+        <li class="menu__item reveal" data-cat="groom" data-img="assets/cocka1.png">
+          <div class="menu__info">
+            <h3>Medium · long coat &amp; doodle</h3>
+            <p>Cockapoos, Cavapoos</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£55</div>
+        </li>
+        <li class="menu__item reveal" data-cat="groom" data-img="assets/boxer1.png">
+          <div class="menu__info">
+            <h3>Large · short coat</h3>
+            <p>Boxer, Doberman, Rottweiler</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£65</div>
+        </li>
+        <li class="menu__item reveal" data-cat="groom" data-img="assets/golden1.png">
+          <div class="menu__info">
+            <h3>Large · long coat &amp; doodle</h3>
+            <p>Labradoodle, Goldendoodle, Old English Sheepdog</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£75</div>
+        </li>
+        <li class="menu__item reveal" data-cat="groom" data-img="assets/span1.png">
+          <div class="menu__info">
+            <h3>Large · long coat de-shed</h3>
+            <p>Golden Retriever, Husky, German Shepherd</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£85</div>
+        </li>
+        <li class="menu__item reveal" data-cat="puppy" data-img="assets/chihuahua1.png">
+          <div class="menu__info">
+            <h3>Puppy intro</h3>
+            <p>A gentle first visit — ideal for dogs 8–20 weeks old</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£30</div>
+        </li>
+        <li class="menu__item reveal" data-cat="puppy" data-img="assets/golden1.png">
+          <div class="menu__info">
+            <h3>Bath &amp; tidy</h3>
+            <p>A quick wash &amp; tidy-up to freshen them up</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£35</div>
+        </li>
+        <li class="menu__item reveal" data-cat="extra">
+          <div class="menu__info">
+            <h3>Claw clipping</h3>
+            <p>A quick, stress-free nail trim</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£10</div>
+        </li>
+        <li class="menu__item reveal" data-cat="extra">
+          <div class="menu__info">
+            <h3>Matting fee</h3>
+            <p>Applied to heavily matted coats — see notes below</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£30</div>
+        </li>
+        <li class="menu__item reveal" data-cat="extra">
+          <div class="menu__info">
+            <h3>Flea bath</h3>
+            <p>Flea treatment &amp; parlour deep-clean — see notes below</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£20</div>
+        </li>
+        <li class="menu__item reveal" data-cat="extra">
+          <div class="menu__info">
+            <h3>Pick-up &amp; drop-off</h3>
+            <p>Each-way trip, local to Worthing</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£7.50</div>
+        </li>
+        <li class="menu__item reveal" data-cat="extra">
+          <div class="menu__info">
+            <h3>Early drop-off / late pick-up</h3>
+            <p>Charged by the hour</p>
+          </div>
+          <span class="menu__dots" aria-hidden="true"></span>
+          <div class="menu__price"><small>from</small>£10</div>
+        </li>
+      </ul>
+
+      <div class="menu-preview" id="menuPreview" aria-hidden="true"><img src="" alt="" /></div>
+
+      <div class="services__cta reveal">
+        <p>Not sure what your dog needs? Just ask — Amy will advise.</p>
+        <a href="https://bookings.gettimely.com/groomingwithams/bb/book?location=339847&staff=591161" class="btn btn--primary magnetic" target="_blank" rel="noopener"><span>Book online</span></a>
+      </div>
+    </section>
+
+    <!-- ======= GALLERY STRIP ======= -->
+    <section class="gallery">
+      <div class="gallery__track">
+        <figure><img loading="lazy" src="assets/pet-grooming-02.jpg" alt="Dog being groomed" /></figure>
+        <figure><img loading="lazy" src="assets/pet-grooming-03.jpg" alt="Freshly groomed dog" /></figure>
+        <figure><img loading="lazy" src="assets/pet-grooming-04.jpg" alt="Happy dog after a groom" /></figure>
+        <figure><img loading="lazy" src="assets/pet-grooming-07.jpg" alt="Dog enjoying bath time" /></figure>
+        <figure><img loading="lazy" src="assets/pet-grooming-08b.jpg" alt="Dog wrapped in a towel" /></figure>
+        <figure><img loading="lazy" src="assets/pet-grooming-09.jpg" alt="Smiling dog at the salon" /></figure>
+        <figure><img loading="lazy" src="assets/pet-grooming-15.jpg" alt="Puppy at the salon" /></figure>
+        <figure><img loading="lazy" src="assets/pet-grooming-06.jpg" alt="Dog mid-groom" /></figure>
+        <figure aria-hidden="true"><img loading="lazy" src="assets/pet-grooming-02.jpg" alt="" /></figure>
+        <figure aria-hidden="true"><img loading="lazy" src="assets/pet-grooming-03.jpg" alt="" /></figure>
+        <figure aria-hidden="true"><img loading="lazy" src="assets/pet-grooming-04.jpg" alt="" /></figure>
+        <figure aria-hidden="true"><img loading="lazy" src="assets/pet-grooming-07.jpg" alt="" /></figure>
+        <figure aria-hidden="true"><img loading="lazy" src="assets/pet-grooming-08b.jpg" alt="" /></figure>
+        <figure aria-hidden="true"><img loading="lazy" src="assets/pet-grooming-09.jpg" alt="" /></figure>
+        <figure aria-hidden="true"><img loading="lazy" src="assets/pet-grooming-15.jpg" alt="" /></figure>
+        <figure aria-hidden="true"><img loading="lazy" src="assets/pet-grooming-06.jpg" alt="" /></figure>
+      </div>
+    </section>
+
+<div class="edge" style="--fill:var(--cream);--bg:var(--paper)"" aria-hidden="true"><svg viewBox="0 0 1440 48" preserveAspectRatio="none"><path d="M0 48 L0 30 C 120 8, 220 42, 360 26 C 500 10, 620 40, 760 24 C 900 8, 1020 40, 1160 26 C 1300 12, 1380 34, 1440 24 L1440 48 Z"/></svg></div>
+
+        <!-- ======= REVIEWS ======= -->
+    <section class="reviews" id="reviews">
+      <div class="section-head">
+        <span class="section-tag">Reviews</span>
+        <h2 class="section-title">Wagged tails,<br/><em>happy humans.</em></h2>
+      </div>
+
+      <div class="reviews__grid">
+        <blockquote class="review reveal">
+          <p>“I have a very difficult cockapoo pup who'd been given an ASBO at another groomers. Amy was so reassuring and willing to take on the challenge. From start to finish she was welcoming, professional and genuinely great at what she does. We're all booked in for our next two appointments!”</p>
+          <footer><b>Emma</b><span>&amp; her cockapoo pup</span></footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <p>“Amy went above and beyond when my rescue dog was given an ASBO at another local groomers. She worked so hard gaining her trust to the point where she can be groomed without feeling traumatised. She's one in a million!”</p>
+          <footer><b>Poppy</b><span>&amp; her rescue dog</span></footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <p>“Amy was amazing with my 6-month cocker spaniel — it was his first cut and I don't think he made it easy, but he looks fantastic! Very knowledgeable, knew exactly what I had in mind. Recommend 100%.”</p>
+          <footer><b>Ali</b><span>&amp; a very good boy</span></footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <p>“Amy really looked after my old smelly Labrador. Super efficient and really kind with him — he honestly looks like a different dog, and the best smelling in our household!”</p>
+          <footer><b>Sarah</b><span>&amp; the labrador</span></footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <p>“Very professional, gentle and calming with my puppy for her first groom. Highly recommend.”</p>
+          <footer><b>Louisa</b><span>&amp; the pup</span></footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <p>“Amy is the most gentle and kind person. My dog is very anxious and Amy made her so calm and responsive when being groomed. She always looks so pretty when she comes home.”</p>
+          <footer><b>Janine</b><span>&amp; the anxious one</span></footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <p>“Absolutely brilliant with Cooper — he loves his appointments and always comes back smelling and looking lovely! Flexible appointments and great communication.”</p>
+          <footer><b>Louise</b><span>&amp; Cooper</span></footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <p>“Amy did an amazing job grooming my Cavapoo and Beagle — two very different needs, both came out looking and smelling adorable. I have every confidence in her.”</p>
+          <footer><b>Sue</b><span>&amp; Opal &amp; Willow</span></footer>
+        </blockquote>
+      </div>
+    </section>
+
+<div class="edge" style="--fill:var(--paper);--bg:var(--cream)"" aria-hidden="true"><svg viewBox="0 0 1440 48" preserveAspectRatio="none"><path d="M0 48 L0 24 C 140 42, 260 10, 400 30 C 540 44, 680 12, 820 28 C 960 42, 1100 12, 1240 28 C 1340 38, 1400 20, 1440 30 L1440 48 Z"/></svg></div>
+
+        <!-- ======= GOOD TO KNOW ======= -->
+    <section class="know">
+      <div class="know__inner">
+        <div class="know__head">
+          <h2 class="section-title">Good to <em>know.</em></h2>
+          <p class="section-sub">The honest small print — so there are no surprises on grooming day.</p>
+        </div>
+
+        <div class="accordion">
+          <details class="acc reveal">
+            <summary>Fleas<span class="acc__icon"></span></summary>
+            <div class="acc__body">
+              <p><b>Dogs with fleas carry a £20 surcharge.</b> Please let Amy know if your dog has (or recently had) fleas — a flea bath will be given at the groom, and flea-positive dogs are booked as the last groom of the day so the parlour can be deep-cleaned with zero cross-contamination.</p>
+            </div>
+          </details>
+          <details class="acc reveal">
+            <summary>Matting<span class="acc__icon"></span></summary>
+            <div class="acc__body">
+              <p><b>Matted coats carry a £30 surcharge.</b> For your dog's own safety and welfare (Animal Welfare Act 2006), severe matting can't be brushed out — it must be clipped off. Mats trap dirt and parasites, pull on the skin causing sores and hair loss, and can hide hot spots that may need vet attention.</p>
+            </div>
+          </details>
+          <details class="acc reveal">
+            <summary>Cancellations &amp; lateness<span class="acc__icon"></span></summary>
+            <div class="acc__body">
+              <p>Life happens — appointments can always be moved. Under 24 hours' notice or a no-show is charged at 100% of the groom; 48 hours is 50%. There's a 15-minute grace period: if you'll be later, let Amy know and a bath &amp; tidy or dry cut may be offered instead (still full price).</p>
+            </div>
+          </details>
+          <details class="acc reveal">
+            <summary>Photos &amp; social media<span class="acc__icon"></span></summary>
+            <div class="acc__body">
+              <p>Amy takes photos and videos during grooms for the Grooming With Ams socials. If you'd rather your pup stayed off the grid, just say so.</p>
+            </div>
+          </details>
+          <details class="acc reveal">
+            <summary>Payment &amp; extras<span class="acc__icon"></span></summary>
+            <div class="acc__body">
+              <p>Cash or bank transfer (BACS before collection). Shampoo and perfume are available to buy in-salon. Treats are used throughout — please flag any allergies. Fully qualified, fully insured, first-aid trained.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+<div class="edge" style="--fill:var(--cream);--bg:var(--sage-pale)"" aria-hidden="true"><svg viewBox="0 0 1440 48" preserveAspectRatio="none"><path d="M0 48 L0 30 C 120 8, 220 42, 360 26 C 500 10, 620 40, 760 24 C 900 8, 1020 40, 1160 26 C 1300 12, 1380 34, 1440 24 L1440 48 Z"/></svg></div>
+
+        <!-- ======= VISIT / CONTACT ======= -->
+    <section class="visit" id="visit">
+      <div class="visit__grid">
+        <div class="visit__copy">
+          <span class="section-tag">Visit</span>
+          <h2 class="section-title">Come &amp; <em>say hi.</em></h2>
+          <p class="lede">Book online in seconds, or get in touch however suits you — Amy replies quickly.</p>
+
+          <ul class="visit__details">
+            <li>
+              <span>Salon</span>
+              <a href="https://maps.google.com/?q=125+Tarring+Road,+Worthing+BN11+4HE" target="_blank" rel="noopener">125 Tarring Road, Worthing, West Sussex BN11 4HE</a>
+            </li>
+            <li>
+              <span>Phone</span>
+              <a href="tel:+447516615218">07516 615218</a>
+            </li>
+            <li>
+              <span>Email</span>
+              <a href="mailto:groomingwithams@gmail.com">groomingwithams@gmail.com</a>
+            </li>
+            <li>
+              <span>Socials</span>
+              <div class="socials">
+                <a href="https://www.facebook.com/groomingwithams" target="_blank" rel="noopener" aria-label="Facebook">
+                  <svg viewBox="0 0 24 24"><path d="M13.5 21v-7.6h2.55l.38-2.96H13.5V8.55c0-.86.24-1.44 1.47-1.44h1.57V4.46c-.27-.04-1.2-.12-2.28-.12-2.26 0-3.8 1.38-3.8 3.9v2.2H7.9v2.96h2.56V21z"/></svg>
+                </a>
+                <a href="https://www.instagram.com/groomingwithams/" target="_blank" rel="noopener" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6zm9.65 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>
+                </a>
+                <a href="https://www.tiktok.com/@groomingwithams" target="_blank" rel="noopener" aria-label="TikTok">
+                  <svg viewBox="0 0 24 24"><path d="M16.6 3c.4 2.2 1.8 3.6 4 3.8v3c-1.6 0-3-.5-4-1.3v6.6a6.1 6.1 0 1 1-6.1-6.1c.3 0 .7 0 1 .1v3.1a3.1 3.1 0 1 0 2.1 2.9V3h3z"/></svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <a href="https://bookings.gettimely.com/groomingwithams/bb/book?location=339847&staff=591161" class="btn btn--primary btn--big magnetic" target="_blank" rel="noopener">
+            <span>Book an appointment</span>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <div class="visit__form-wrap">
+          <form class="visit__form" id="enquiryForm">
+            <h3>Send a quick enquiry</h3>
+            <p>Opens your email with everything filled in — no accounts, no fuss.</p>
+            <label>
+              <span>Your name</span>
+              <input type="text" name="name" required placeholder="e.g. Sam" />
+            </label>
+            <label>
+              <span>Dog &amp; breed</span>
+              <input type="text" name="dog" placeholder="e.g. Biscuit — Cavapoo" />
+            </label>
+            <label>
+              <span>Phone or email</span>
+              <input type="text" name="contact" required placeholder="How should Amy reach you?" />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" placeholder="What does your pup need?"></textarea>
+            </label>
+            <button type="submit" class="btn btn--primary"><span>Send enquiry</span></button>
+          </form>
+          <figure class="visit__photo">
+            <img loading="lazy" src="assets/pet-grooming-post-03.jpg" alt="Inside the Grooming With Ams salon" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+<div class="edge" style="--fill:var(--sage-pale);--bg:var(--sage-deep)"" aria-hidden="true"><svg viewBox="0 0 1440 48" preserveAspectRatio="none"><path d="M0 48 L0 24 C 140 42, 260 10, 400 30 C 540 44, 680 12, 820 28 C 960 42, 1100 12, 1240 28 C 1340 38, 1400 20, 1440 30 L1440 48 Z"/></svg></div>
+
+        <!-- ======= CTA BAND ======= -->
+    <section class="band">
+      <div class="band__inner">
+        <img src="assets/GWA-Logo-clr.png" alt="" class="band__logo" aria-hidden="true" />
+        <h2>Ready for the best-smelling<br/>dog on the street?</h2>
+        <a href="https://bookings.gettimely.com/groomingwithams/bb/book?location=339847&staff=591161" class="btn btn--light magnetic" target="_blank" rel="noopener"><span>Book your groom</span></a>
+      </div>
+    </section>
+
+  </main>
+
+<div class="edge" style="--fill:var(--sage-deep);--bg:var(--ink)"" aria-hidden="true"><svg viewBox="0 0 1440 48" preserveAspectRatio="none"><path d="M0 48 L0 30 C 120 8, 220 42, 360 26 C 500 10, 620 40, 760 24 C 900 8, 1020 40, 1160 26 C 1300 12, 1380 34, 1440 24 L1440 48 Z"/></svg></div>
+
+      <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <img src="assets/GWA-Logo-clr.png" alt="Grooming With Ams" />
+        <p>Calm, one-to-one dog grooming<br/>in Worthing, West Sussex.</p>
+      </div>
+      <div class="footer__col">
+        <b>Explore</b>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#visit">Visit</a>
+      </div>
+      <div class="footer__col">
+        <b>Contact</b>
+        <a href="tel:+447516615218">07516 615218</a>
+        <a href="mailto:groomingwithams@gmail.com">groomingwithams@gmail.com</a>
+        <a href="https://maps.google.com/?q=125+Tarring+Road,+Worthing+BN11+4HE" target="_blank" rel="noopener">125 Tarring Rd, BN11 4HE</a>
+      </div>
+      <div class="footer__col">
+        <b>Follow</b>
+        <a href="https://www.facebook.com/groomingwithams" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/groomingwithams/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.tiktok.com/@groomingwithams" target="_blank" rel="noopener">TikTok</a>
+      </div>
+    </div>
+    <div class="footer__base">
+      <span>© 2026 Grooming With Ams. All rights reserved.</span>
+      <span>Made with care in Worthing.</span>
+    </div>
+  </footer>
+
+  <a href="https://bookings.gettimely.com/groomingwithams/bb/book?location=339847&staff=591161" class="sticky-book" id="stickyBook" target="_blank" rel="noopener">
+    <span>Book an appointment</span>
+    <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
