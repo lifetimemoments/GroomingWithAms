@@ -201,7 +201,7 @@
     const contact = (d.get("contact") || "").toString().trim();
     const message = (d.get("message") || "").toString().trim();
 
-    const subject = `Grooming enquiry — ${name}${dog ? ` & ${dog}` : ""}`;
+    const subject = `Grooming enquiry — ${name}${dog ? ` and ${dog}` : ""}`;
     const body = [
       `Hi Amy,`,
       ``,
